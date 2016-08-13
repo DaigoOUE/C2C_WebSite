@@ -1,0 +1,127 @@
+.mainContents{
+  padding-top:0;
+}
+
+.news dl{
+  padding-left:1.62em;
+  width:600px;
+  overflow:hidden;
+}
+
+.news dt{
+  width:200px;
+  float:left;
+  clear:both;
+}
+
+.news dd{
+  width:400px;
+  padding: 0 0 0 210px;
+  margin:0;
+}
+
+.contentBox p{
+  padding-left:1.62em;
+}
+
+.contentBox dl{
+  padding-left:1.62em;
+  width:600px;
+  overflow:hidden;
+}
+
+.contentBox dt{
+  width:200px;
+  float:left;
+  clear:both;
+}
+
+.contentBox dd{
+  width:400px;
+  padding: 0 0 0 210px;
+  margin:0;
+}
+
+ul.sponsors{
+  display:table;
+  width:90%;
+  padding:10% 0 0 0;
+  margin:0 auto;
+}
+
+.sponsors li{
+  display:table-cell;
+  padding:0 2.5%;
+}
+
+ul.sponsors #osasc{
+  width:100%;
+  max-width:100px;
+  height:80px;
+  display:block;
+  background:url(img/logo-osa-sc.png) no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+ul.sponsors #pc{
+  width:100%;
+  max-width:100px;
+  height:80px;
+  display:block;
+  background:url(img/logo-pc.png) no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+ul.sponsors #jsps{
+  width:100%;
+  max-width:100px;
+  height:80px;
+  display:block;
+  background:url(img/logo-jsps.png) no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+ul.sponsors #spie{
+  width:100%;
+  max-width:100px;
+  height:80px;
+  display:block;
+  background:url(img/logo-spie.png) no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+ul.sponsors #osa{
+  width:100%;
+  max-width:100px;
+  height:80px;
+  display:block;
+  background:url(img/logo-osa.png) no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+/*configuration for bxslider*/
+ul.bxslider{
+  margin:0;
+  padding:0;
+}
+
+.bx-pager{
+  display:none;
+}
+
+.bx-next{
+  display:none;
+}
+
+.bx-prev{
+  display:none;
+}
+
+.slider{
+  padding-top:89px;
+}

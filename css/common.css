@@ -1,55 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:700,400,300);
+
 body{
   margin:0;
   padding:0;
   font-size:16px;
+  font-family: 'Comfortaa', cursive;
+  font-weight:normal;
+  background:#80ceff;
 }
 
 .header{
-  width:1420px;
+  position:fixed;
+  top:0px;
+  width:100%;
+  max-width:760px;
+  min-width:270px;
+  max-height:182px;
   background:#000;
   color:#fff;
+  z-index:99999;
+  border-radius: 5px;
+}
+
+div.title{
+  background:url(img/snow.jpeg) no-repeat;
+  width:700px;
+  height:60px;
+  color:#fff;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  font-weight:bold;
+  font-size:1.62em;
+  padding-left:3%;
+  margin:7px 0;
+}
+
+span.description{
+  font-size:0.7em;
 }
 
 .container{
-  width:1420px;
+  width:100%;
+  max-width:760px;
   margin:0 auto;
 }
 
 .navigation{
-  margin:0 auto;
-  width: 1130px;
+  width:94%;
+  padding-left:3%;
 }
 
 .navigation ul{
+  padding:0;
+  margin:0;
   display:table;
 }
 
 .navigation li{
   display:table-cell;
   border-bottom:3px solid #000;
+  color:#80ceff;
+  transition-property: all;
+  transition: 0.3s linear;
 }
 .navigation li.on{
-  border-bottom:3px solid #f00;
+  border-bottom:3px solid #d4ff57;
+  color:#56beff;
 }
 
 .navigation li:hover{
-  border-bottom:3px solid #d00;
+  border-bottom:3px solid #e4ff94;
+  color:#56beff;
 }
 .navigation a{
  text-decoration:none;
- color:#fff;
- padding-right:29px;
+ padding-right:11px;
 }
 
 .mainContents{
-  padding: 0 40 50 40;
+  width:94%;
+  max-width:714px;
+  padding:96px 3% 0 3%;
 }
+
+.mainContents h1{
+  font-size:1.41em;
+  padding-bottom:3px;
+  border-bottom:1px solid #000;
+}
+
+.mainContents h2{
+  font-size:1.19em;
+  padding:10px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+}
+
+.contentBox p{
+  padding-left:1.62em;
+}
+
+.contentBox dl{
+  padding-left:1.62em;
+  width:600px;
+  overflow:hidden;
+}
+
+.contentBox dt{
+  width:200px;
+  float:left;
+  clear:both;
+}
+
+.contentBox dd{
+  width:400px;
+  padding: 0 0 0 210px;
+  margin:0;
+}
+
 .footer{
-  position:fixed;
-  bottom:0;
-  width:1420px;
+  width:100%;
+  max-width:760px;
+  min-width:270px;
   background:#000;
-  color:#fff;
+  color:#56beff;
+  padding:10px 0;
+  font-size:0.62em;
+  border-radius: 5px;
+}
+
+.footer p{
+  padding-left:3%;
+  margin:0;
+}
+
+span.email{
+  text-decoration:underline;
 }
 
 .cssclear{

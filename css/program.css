@@ -1,0 +1,31 @@
+dl.timetable {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius:5px;
+  padding-right:5%;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+}
+
+.timetable dt{
+  padding-left:0.5em;
+  margin-bottom:0.2em;
+}
+
+.timetable dd{
+  margin-bottom:0.2em;
+}
+
+dt#title{
+  background:#000;
+  color:#80ceff;
+  font-weight:bold;
+  border-radius:5px;
+}
+
+dd#title{
+  background:#000;
+  color:#80ceff;
+  font-weight:bold;
+  margin-bottom:0.2em;
+  border-radius:5px;
+}
