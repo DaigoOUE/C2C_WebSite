@@ -1,0 +1,16 @@
+.pane2L{
+  width:330px;
+  float:left;
+  padding:0;
+}
+
+.pane2L img{
+  width:330px;
+}
+.pane2R{
+  width:330px;
+  padding:0;
+  float:right;
+}
+
+

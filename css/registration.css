@@ -1,0 +1,13 @@
+dl.faq{
+}
+
+.faq dt{
+ font-weight:bold;
+ padding-bottom:25px;
+ min-height:100px;
+}
+
+.faq dd{
+ padding-bottom:25px;
+ min-height:100px;
+}

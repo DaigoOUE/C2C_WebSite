@@ -96,6 +96,13 @@ span.description{
   border-radius: 5px;
 }
 
+.contentBox{
+  width:714px;
+}
+.contentBox div{
+  padding-left:1.62em;
+}
+
 .contentBox p{
   padding-left:1.62em;
 }
@@ -140,4 +147,11 @@ span.email{
 
 .cssclear{
   clear:both;
+}
+
+/*text decoration*/
+strong{
+  color:#ff5757;
+  font-weight:bold;
+  text-decoration:underline;
 }
