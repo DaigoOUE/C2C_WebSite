@@ -11,6 +11,16 @@
 .news dd{
 }
 
+ul.itemize{
+  padding-left:9%;
+  list-style-type: disc;
+}
+
+.itemize li{
+  width:94%;
+  margin-bottom:0.5em
+}
+
 ul.sponsors{
   display:table;
   width:90%;
