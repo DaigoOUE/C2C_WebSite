@@ -37,7 +37,6 @@ div.title{
 
 span.description{
   font-size:0.7em;
-  z-index:-99;
 }
 
 .container{
@@ -58,31 +57,9 @@ span.description{
   padding-bottom:2.5px;
   display:table;
 }
-/*
-.navigation li{
-  display:table-cell;
-  border-bottom:3px solid #000;
-  color:#80ceff;
-  transition-property: all;
-  transition: 0.3s linear;
-}
-.navigation li.on{
-  border-bottom:3px solid #d4ff57;
-  color:#56beff;
-}
 
-.navigation li:hover{
-  border-bottom:3px solid #e4ff94;
-  color:#56beff;
-}
-.navigation a{
- text-decoration:none;
- padding-right:11px;
-}
-*/
-/**/
 .navigation li{
-  padding-top:2px;
+  padding-top:3px;
   display:table-cell;
   padding-right:11px;
   float:left;
@@ -90,7 +67,6 @@ span.description{
 
 .navigation a{
   color:#80ceff;
-  border-bottom:3px solid #000;
   text-decoration:none;
   transition-property: all;
   transition: 0.3s linear;
@@ -104,7 +80,6 @@ span.description{
   border-bottom:3px solid #e4ff94;
   color:#56beff;
 }
-/**/
 
 .mainContents{
   width:94%;
