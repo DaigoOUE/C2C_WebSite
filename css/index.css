@@ -3,43 +3,12 @@
 }
 
 .news dl{
-  padding-left:1.62em;
-  width:600px;
-  overflow:hidden;
 }
 
 .news dt{
-  width:200px;
-  float:left;
-  clear:both;
 }
 
 .news dd{
-  width:400px;
-  padding: 0 0 0 210px;
-  margin:0;
-}
-
-.contentBox p{
-  padding-left:1.62em;
-}
-
-.contentBox dl{
-  padding-left:1.62em;
-  width:600px;
-  overflow:hidden;
-}
-
-.contentBox dt{
-  width:200px;
-  float:left;
-  clear:both;
-}
-
-.contentBox dd{
-  width:400px;
-  padding: 0 0 0 210px;
-  margin:0;
 }
 
 ul.sponsors{
@@ -124,4 +93,16 @@ ul.bxslider{
 
 .slider{
   padding-top:89px;
+}
+@media screen and ( max-width:751px )
+{
+  .slider{
+   padding-top:118px; 
+  }
+}
+@media screen and ( max-width:390px )
+{
+  .slider{
+   padding-top:135px; 
+  }
 }
