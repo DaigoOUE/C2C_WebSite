@@ -1,16 +1,29 @@
 .pane2L{
-  width:330px;
+  width:50%;
   float:left;
   padding:0;
 }
 
 .pane2L img{
-  width:330px;
+  width:100%;
 }
 .pane2R{
-  width:330px;
+  width:50%;
   padding:0;
   float:right;
 }
 
-
+@media screen and (max-width:425px)
+{
+  .pane2L{
+    width:94%;
+    clear:both;
+  }
+  .pane2R{
+    width:94%;
+    clear:both;
+  }
+  .pane2R p{
+    padding:0;
+  }
+}

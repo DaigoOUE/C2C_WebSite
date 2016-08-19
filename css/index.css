@@ -94,6 +94,7 @@ ul.bxslider{
 .slider{
   padding-top:89px;
 }
+
 @media screen and ( max-width:751px )
 {
   .slider{
@@ -103,6 +104,6 @@ ul.bxslider{
 @media screen and ( max-width:390px )
 {
   .slider{
-   padding-top:135px; 
+   padding-top:140px; 
   }
 }

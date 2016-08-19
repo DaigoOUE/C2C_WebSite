@@ -101,11 +101,11 @@ span.description{
   padding:0 3%;
 }
 .contentBox div{
-  padding-left:1.62em;
+  padding-left:3%;
 }
 
 .contentBox p{
-  padding-left:1.62em;
+  padding-left:3%;
 }
 
 .contentBox dl{
@@ -156,4 +156,17 @@ strong{
   color:#ff5757;
   font-weight:bold;
   text-decoration:underline;
+}
+
+@media screen and ( max-width:751px )
+{
+  .mainContents{
+   padding-top:123px; 
+  }
+}
+@media screen and ( max-width:390px )
+{
+  .mainContents{
+   padding-top:145px; 
+  }
 }
