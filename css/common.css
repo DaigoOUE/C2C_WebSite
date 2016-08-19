@@ -37,6 +37,7 @@ div.title{
 
 span.description{
   font-size:0.7em;
+  z-index:-99;
 }
 
 .container{
@@ -53,9 +54,11 @@ span.description{
 .navigation ul{
   padding:0;
   margin:0;
+  margin-top:-2.5px;
+  padding-bottom:2.5px;
   display:table;
 }
-
+/*
 .navigation li{
   display:table-cell;
   border-bottom:3px solid #000;
@@ -76,6 +79,32 @@ span.description{
  text-decoration:none;
  padding-right:11px;
 }
+*/
+/**/
+.navigation li{
+  padding-top:2px;
+  display:table-cell;
+  padding-right:11px;
+  float:left;
+}
+
+.navigation a{
+  color:#80ceff;
+  border-bottom:3px solid #000;
+  text-decoration:none;
+  transition-property: all;
+  transition: 0.3s linear;
+}
+.navigation a.on{
+  border-bottom:3px solid #d4ff57;
+  color:#56beff;
+}
+
+.navigation a:hover{
+  border-bottom:3px solid #e4ff94;
+  color:#56beff;
+}
+/**/
 
 .mainContents{
   width:94%;
@@ -164,6 +193,14 @@ strong{
    padding-top:123px; 
   }
 }
+
+@media screen and ( max-width:751px )
+{
+  .description{
+    display:none;
+  }
+}
+
 @media screen and ( max-width:390px )
 {
   .mainContents{
