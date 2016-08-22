@@ -23,20 +23,30 @@ body{
 }
 
 div.title{
-  background:url(img/snow.jpeg) no-repeat;
   width:97%;
   height:65px;
-  color:#fff;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+  color:#56beff;
   font-weight:bold;
   font-size:1.62em;
   padding-left:3%;
   margin:7px 0;
 }
 
-span.description{
+.description{
+  position:absolute;
+  top:0;
+  padding-left:168px;
   font-size:0.7em;
+}
+
+#logo{
+  width:168px;
+  height:65px;
+  padding:0;
+  margin:0;
+  background:url(../img/logo.png) no-repeat;
+  background-size:contain;
+  background-position:center;
 }
 
 .container{
