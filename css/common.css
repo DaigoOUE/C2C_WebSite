@@ -69,7 +69,7 @@ div.title{
 }
 
 .navigation li{
-  padding-top:3px;
+  padding-top:6px;
   display:table-cell;
   padding-right:11px;
   float:left;
@@ -189,6 +189,6 @@ strong{
 @media screen and ( max-width:390px )
 {
   .mainContents{
-   padding-top:145px; 
+   padding-top:157px; 
   }
 }

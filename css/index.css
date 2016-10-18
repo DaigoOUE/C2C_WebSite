@@ -116,12 +116,12 @@ ul.bxslider{
 @media screen and ( max-width:751px )
 {
   .slider{
-   padding-top:118px; 
+   padding-top:123px; 
   }
 }
 @media screen and ( max-width:390px )
 {
   .slider{
-   padding-top:140px; 
+   padding-top:149px; 
   }
 }
