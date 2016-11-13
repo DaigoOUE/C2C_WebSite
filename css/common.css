@@ -114,12 +114,17 @@ div.title{
   width:94%;
   padding:0 3%;
 }
+.contentBox span{
+  font-weight:bold;
+}
+
 .contentBox div{
   padding-left:3%;
 }
 
 .contentBox p{
   padding-left:3%;
+  margin-top:0.25em;
 }
 
 .contentBox dl{
@@ -138,6 +143,7 @@ div.title{
   width:45%;
   padding: 0 0 0 50%;
   margin:0;
+  margin-bottom:0.5em;
 }
 
 .footer{
