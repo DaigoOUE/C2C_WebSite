@@ -23,12 +23,12 @@ body{
 }
 
 div.title{
-  width:97%;
+  width:98%;
   height:65px;
   color:#56beff;
   font-weight:bold;
   font-size:1.62em;
-  padding-left:2.5%;
+  padding-left:2%;
   margin:7px 0;
 }
 
@@ -56,8 +56,8 @@ div.title{
 }
 
 .navigation{
-  width:97%;
-  padding-left:2.5%;
+  width:98%;
+  padding-left:2%;
 }
 
 .navigation ul{
