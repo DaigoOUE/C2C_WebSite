@@ -13,7 +13,7 @@ body{
   position:fixed;
   top:0px;
   width:100%;
-  max-width:790px;
+  max-width:760px;
   min-width:270px;
   max-height:182px;
   background:#000;
@@ -28,7 +28,7 @@ div.title{
   color:#56beff;
   font-weight:bold;
   font-size:1.62em;
-  padding-left:3%;
+  padding-left:2.5%;
   margin:7px 0;
 }
 
@@ -56,8 +56,8 @@ div.title{
 }
 
 .navigation{
-  width:94%;
-  padding-left:3%;
+  width:97%;
+  padding-left:2.5%;
 }
 
 .navigation ul{
